@@ -339,7 +339,8 @@ def home():
     if not check_cookie(sennin):
         return redirect("/word")
 
-    videos, shorts, channels = get_home()
+    import asyncio
+videos, shorts, channels = asyncio.run(get_home())
 
     resp = make_response(render_template(
         "home.html",
