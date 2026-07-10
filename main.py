@@ -30,22 +30,14 @@ max_time = 10
 version = "1.0"
 
 apis = [
-    "https://yewtu.be/",
-    "https://invidious.f5.si/",
-    "https://invidious.perennialte.ch/",
-    "https://iv.nboeck.de/",
-    "https://invidious.jing.rocks/",
-    "https://yt.omada.cafe/",
-    "https://invidious.reallyaweso.me/",
-    "https://invidious.privacyredirect.com/",
-    "https://invidious.nerdvpn.de/",
-    "https://iv.nowhere.moe/",
-    "https://inv.tux.pizza/",
-    "https://invidious.private.coffee/",
-    "https://iv.ggtyler.dev/",
-    "https://iv.datura.network/",
-    "https://yt.cdaut.de/",
-]
+"https://invidious.nerdvpn.de/",
+"https://inv.tux.digital/",
+"https://invidious.protobuf.it/",
+"https://invidious.no-logs.com/",
+"https://invidious.perennialte.ch/",
+"https://inv.in.projectsegfau.lt/",
+"https://iv.melmac.space/"
+    ]
 
 apichannels = apis.copy()
 apicomments = apis.copy()
