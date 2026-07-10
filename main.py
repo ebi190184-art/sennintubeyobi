@@ -339,7 +339,7 @@ def home():
     if not check_cookie(sennin):
         return redirect("/word")
 
-    videos, shorts, channels = run_async(get_home())
+    videos, shorts, channels = run_async(get_home)
 
     resp = make_response(render_template(
         "home.html",
