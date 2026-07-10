@@ -16,7 +16,7 @@ except ImportError:
             return f
         return decorator
 
-from flask import Flask, request, response, render_template, redirect, make_response, send_from_directory, abort, Response as FlaskResponse
+from flask import Flask, request, render_template, redirect, make_response, send_from_directory, abort, Response as FlaskResponse
 from flask_compress import Compress
 import httpx
 from bs4 import BeautifulSoup
