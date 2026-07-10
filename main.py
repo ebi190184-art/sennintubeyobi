@@ -258,7 +258,6 @@ async def get_channel(channelid):
 # ホーム
 # =========================
 
-@cache(seconds=30)
 async def get_home():
     data = json.loads(await apirequest("api/v1/popular?hl=jp"))
 
