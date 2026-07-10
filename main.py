@@ -339,8 +339,9 @@ def home():
     if not check_cookie(sennin):
         return redirect("/word")
 
+# 342行目付近（ここをすっきり3行に直します）
     import asyncio
-videos, shorts, channels = asyncio.run(get_home())
+    videos, shorts, channels = asyncio.run(get_home())
 
     resp = make_response(render_template(
         "home.html",
