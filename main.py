@@ -334,14 +334,13 @@ def stream_high():
 # =========================
 
 @app.route("/")
-def home():
+async def home():  # ← ここに 「async」 を追加します！
     sennin = request.cookies.get("sennin")
     if not check_cookie(sennin):
         return redirect("/word")
 
-# 342行目付近（ここをすっきり3行に直します）
-    import asyncio
-    videos, shorts, channels = asyncio.run(get_home())
+    # asyncio.run ではなく、普通に 「await」 します
+    videos, shorts, channels = await get_home() 
 
     resp = make_response(render_template(
         "home.html",
