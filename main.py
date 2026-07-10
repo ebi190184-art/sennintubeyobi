@@ -30,13 +30,22 @@ max_time = 10
 version = "1.0"
 
 apis = [
-"https://invidious.nerdvpn.de/",
-"https://inv.tux.digital/",
-"https://invidious.protobuf.it/",
-"https://invidious.no-logs.com/",
-"https://invidious.perennialte.ch/",
-"https://inv.in.projectsegfau.lt/",
-"https://iv.melmac.space/"
+    'https://inv.nadeko.net/',
+    'https://invidious.f5.si/',
+    'https://invidious.lunivers.trade/',
+    'https://invidious.ducks.party/',
+    'https://iv.melmac.space/',
+    'https://invidious.nerdvpn.de/',
+    "https://invidious.privacyredirect.com",
+    "https://invidious.technicalvoid.dev",
+    "https://invidious.darkness.services",
+    "https://invidious.nikkosphere.com",
+    "https://invidious.schenkel.eti.br",
+    "https://invidious.tiekoetter.com",
+    "https://invidious.perennialte.ch",
+    "https://invidious.reallyaweso.me",
+    "https://invidious.private.coffee",
+    "https://invidious.privacydev.net",
     ]
 
 apichannels = apis.copy()
